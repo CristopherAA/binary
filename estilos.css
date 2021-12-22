@@ -1,0 +1,40 @@
+body{
+	background: #FFC300 ;
+	margin:0;
+	}
+h1{
+	margin:0;
+	font-family: arial;
+	text-align: center;
+	color:white;
+	background:#581845;
+	padding:10px;
+}
+div{
+	font-family: arial;
+	text-align: center;
+}
+.main{
+	display: flex;
+	justify-content: center;
+}
+.cincuenta{
+	width: 30%;
+}
+@media (max-width: 600px) {
+  .cincuenta{
+  	width: 50%;
+  }
+}
+.cincuenta > h2{
+	height:2em;
+}
+.boton{
+	width: 4em;
+	background: blue;
+	color: white;
+	border-radius: 25%;
+}
+textarea{
+	width: 85%;
+}
