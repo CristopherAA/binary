@@ -14,6 +14,7 @@ function convertir(){
 		if(es_numero(ingreso[i])){
 			resultado = resultado + actual * parseInt(ingreso[i]);
 		}else{
+			
 			alert("🤔🤔🤔🤔🤔🤔");
 			return;
 		}
