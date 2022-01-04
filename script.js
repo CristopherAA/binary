@@ -1,8 +1,5 @@
 function es_numero(variable){
-	if(variable >= '0' && variable <= '9'){
-		return true;
-	}
-	return false;
+	return (variable >= '0' && variable <= '9');
 }
 function convertir(){
 	var ingreso = document.getElementById("ingreso").value;
